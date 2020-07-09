@@ -5,21 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    //Function which create id for product
-    public static int iD() {
-        return (int) (Math.random() * 1000);
-    }
-
-
-    public static int minP(int a){
-         a = 1;
-        for(a = 1; a < 10; a++) {
-            System.out.println("Your product id is: " + a);
-
-        }
-        return a;
-    }
-
+    //// This code generates an id in a growing sequence starting from 1
 
     public static void main(String[] args) {
 
