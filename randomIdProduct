@@ -1,0 +1,32 @@
+package sample;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+
+    //Function which create limits for creating ID
+    public static int iD() {
+        return (int) (Math.random() * 1000);
+    }
+    
+//generate random ID
+    public static void main(String[] args) {
+
+
+        Scanner productName = new Scanner(System.in);
+        int a = 1;
+        while (productName.hasNextLine()) {
+            String pN = productName.nextLine();
+            System.out.println("you product name " + pN);
+            
+            for (int i = 0; i < 1; i++) {
+                int x = iD();
+                System.out.println("Your random id is: " + x);
+            }
+
+   
+
+        }
+    }
+}
